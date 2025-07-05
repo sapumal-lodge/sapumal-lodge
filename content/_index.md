@@ -28,9 +28,9 @@ We provide warm, safe, and welcoming accommodation in a lovingly maintained home
   </div>
 
   <div class="room-gallery">
-    <img src="/images/rooms/double_room.jpg" alt="Double Room" class="room-photo">
-    <img src="/images/rooms/triple_room.jpg" alt="Triple Room" class="room-photo">
-    <img src="/images/rooms/quad_room.jpg" alt="Family Room" class="room-photo">
+    <img src="/sapumal-lodge/images/rooms/double_room.jpg" alt="Double Room" class="room-photo">
+    <img src="/sapumal-lodge/images/rooms/triple_room.jpg" alt="Triple Room" class="room-photo">
+    <img src="/sapumal-lodge/images/rooms/quad_room.jpg" alt="Family Room" class="room-photo">
   </div>
 </div>
 
@@ -55,9 +55,9 @@ We provide warm, safe, and welcoming accommodation in a lovingly maintained home
   </div>
 
   <div class="facility-gallery">
-    <img src="/images/facilities/glass_bottles.jpg" alt="Glass Water Bottles" class="facility-photo">
-    <img src="/images/facilities/hair_dryer.jpg" alt="Hair Dryer" class="facility-photo">
-    <img src="/images/facilities/lounge.jpg" alt="Lounge Area" class="facility-photo">
+    <img src="/sapumal-lodge/images/facilities/glass_bottles.jpg" alt="Glass Water Bottles" class="facility-photo">
+    <img src="/sapumal-lodge/images/facilities/hair_dryer.jpg" alt="Hair Dryer" class="facility-photo">
+    <img src="/sapumal-lodge/images/facilities/lounge.jpg" alt="Lounge Area" class="facility-photo">
   </div>
 </div>
 
@@ -80,7 +80,7 @@ We provide warm, safe, and welcoming accommodation in a lovingly maintained home
   </div>
 
   <div class="eco-image">
-    <img src="/images/eco/e_bikes.jpg" alt="Our eco-friendly efforts" class="eco-photo">
+    <img src="/sapumal-lodge/images/eco/e_bikes.jpg" alt="Our eco-friendly efforts" class="eco-photo">
   </div>
 </div>
 
