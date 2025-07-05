@@ -1,10 +1,15 @@
+/* Set up the overall text size */
+html {
+  font-size: 12px;
+}
+
 /* Set up the background image */
 html,
 body {
   height: 100%;
   margin: 0;
   padding: 0;
-  background: url('/images/front_view_day.jpeg') no-repeat center center fixed;
+  background: url('/sapumal-lodge/images/front_view_day.jpeg') no-repeat center center fixed;
   background-size: cover;
 }
 
@@ -31,7 +36,7 @@ header .tc-l.pv3.ph3.ph4-ns {
 }
 
 /* Set up the logo */
-.flex-l > a[href="/"] {
+.flex-l > a[href="/sapumal-lodge/"] {
   display: block;
   max-width: 280px;
   width: 40vw;
@@ -39,7 +44,7 @@ header .tc-l.pv3.ph3.ph4-ns {
 
   aspect-ratio: 402 / 313;
 
-  background: url('/images/sapumal_lodge_logo.svg') no-repeat center center;
+  background: url('/sapumal-lodge/images/sapumal_lodge_logo.svg') no-repeat center center;
   background-size: contain;
 
   color: transparent !important;
