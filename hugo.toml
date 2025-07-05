@@ -1,0 +1,52 @@
+baseURL = "https://manju-dissa.github.io/"
+languageCode = "en-gb"
+title = "Sapumal Lodge"
+theme = "ananke"
+
+[pagination]
+  pagerSize = 5
+
+[params]
+  description = "Hotel offering affordable luxury in Anuradhapura, Sri Lanka"
+  author = "Sapumal Lodge"
+  custom_css = ["css/custom-background.css"]
+
+[menu]
+  [[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
+
+  [[menu.main]]
+    name = "About Us"
+    url = "/about/"
+    weight = 2
+
+  [[menu.main]]
+    name = "Breakfast"
+    url = "/breakfast/"
+    weight = 3
+
+  [[menu.main]]
+    name = "E-bike Rental"
+    url = "/ebike/"
+    weight = 4
+
+  [[menu.main]]
+    name = "Free Bikes"
+    url = "/free-bikes/"
+    weight = 5
+
+  [[menu.main]]
+    name = "Safari"
+    url = "/safari/"
+    weight = 6
+
+  [[menu.main]]
+    name = "Gallery"
+    url = "/gallery/"
+    weight = 7
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true  # Allow raw HTML in Markdown
