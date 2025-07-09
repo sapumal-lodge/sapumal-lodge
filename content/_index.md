@@ -64,11 +64,27 @@ We provide warm, safe, and welcoming accommodation in a lovingly maintained home
 
 ---
 
+### ⭐ What Guests Say
+
+<div class="review-flex">
+  <div class="review-box">
+    <img src="/sapumal-lodge/images/booking_logo.png" alt="Booking.com Reviews" class="review-logo"><br>
+    <strong>9.3</strong> average rating on Booking.com Based on over <strong>430</strong> reviews
+  </div>
+
+  <div class="review-box">
+    <img src="/sapumal-lodge/images/google_reviews_logo.png" alt="Google Reviews" class="review-logo"><br>
+    <strong>4.7</strong> average rating on Google based on over <strong>215</strong> reviews
+  </div>
+</div>
+
+---
+
 ### 🌱 Our Eco Commitment
 
 <div class="eco-flex">
   <div class="eco-text">
-    We actively support sustainable tourism:
+    We actively support sustainable tourism: 
     <ul>
       <li>♻️ Use of glass water bottles (plastic by request)</li>
       <li>🚲 Free bikes to reduce emissions</li>
@@ -81,25 +97,6 @@ We provide warm, safe, and welcoming accommodation in a lovingly maintained home
 
   <div class="eco-image">
     <img src="/sapumal-lodge/images/eco/e_bikes.jpg" alt="Our eco-friendly efforts" class="eco-photo">
-  </div>
-</div>
-
-
----
-
-### ⭐ What Guests Say
-
-<div class="review-flex">
-  <div class="review-box">
-    <img src="/images/booking_logo.png" alt="Booking.com Reviews" class="review-logo"><br>
-    <strong>9.3</strong> average rating on Booking.com  
-    <br>Based on over <strong>430</strong> reviews
-  </div>
-
-  <div class="review-box">
-    <img src="/images/google_reviews_logo.png" alt="Google Reviews" class="review-logo"><br>
-    <strong>4.7</strong> average rating on Google  
-    <br>Based on over <strong>215</strong> reviews
   </div>
 </div>
 
@@ -123,3 +120,11 @@ We provide warm, safe, and welcoming accommodation in a lovingly maintained home
 📞 Tel: 025 222 3236 / 076 106 7595  
 📧 Email: [info@sapumal-lodge.com](mailto:info@sapumal-lodge.com)  
 🌐 Web: [www.sapumal-lodge.com](https://www.sapumal-lodge.com)
+
+---
+
+### 📍 Find Us on Google Maps
+
+<div class="map-container">
+  <<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3947.767052965626!2d80.39540807557967!3d8.325930791709972!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3afcf587e324e567%3A0xf329eabf0e968352!2sSapumal%20Lodge!5e0!3m2!1sen!2suk!4v1752099043113!5m2!1sen!2suk" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div>
