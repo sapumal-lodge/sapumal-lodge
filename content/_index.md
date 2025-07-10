@@ -69,12 +69,12 @@ We provide warm, safe, and welcoming accommodation in a lovingly maintained home
 <div class="review-flex">
   <div class="review-box">
     <img src="/sapumal-lodge/images/booking_logo.png" alt="Booking.com Reviews" class="review-logo"><br>
-    <strong>9.3</strong> average rating on Booking.com Based on over <strong>446</strong> reviews
+    <strong>9.3</strong> average rating based on over <strong>446</strong> reviews.
   </div>
 
   <div class="review-box">
     <img src="/sapumal-lodge/images/google_reviews_logo.png" alt="Google Reviews" class="review-logo"><br>
-    <strong>4.7</strong> average rating on Google based on over <strong>215</strong> reviews
+    <strong>4.7</strong> average rating based on over <strong>215</strong> reviews.
   </div>
 </div>
 
@@ -126,5 +126,5 @@ We provide warm, safe, and welcoming accommodation in a lovingly maintained home
 ### 📍 Find Us on Google Maps
 
 <div class="map-container">
-  <<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3947.767052965626!2d80.39540807557967!3d8.325930791709972!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3afcf587e324e567%3A0xf329eabf0e968352!2sSapumal%20Lodge!5e0!3m2!1sen!2suk!4v1752099043113!5m2!1sen!2suk" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3947.767052965626!2d80.39540807557967!3d8.325930791709972!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3afcf587e324e567%3A0xf329eabf0e968352!2sSapumal%20Lodge!5e0!3m2!1sen!2suk!4v1752099043113!5m2!1sen!2suk" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 </div>
