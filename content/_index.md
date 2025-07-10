@@ -44,7 +44,7 @@ We provide warm, safe, and welcoming accommodation in a lovingly maintained home
     <ul>
       <li>📶 Free WiFi</li>
       <li>🚲 Free bicycle hire</li>
-      <li>⚡ E-bike rentals — one of the first in Anuradhapura!</li>
+      <li>⚡ E-bike rentals — the first and only hotel in Anuradhapura offering e-bike rental facilities!</li>
       <li>🅿️ Free secure onsite parking</li>
       <li>👨‍👩‍👧‍👦 Safe, family-friendly environment</li>
       <li>🗺️ Helpful local tips for exploring the city and sacred sites</li>
@@ -69,7 +69,7 @@ We provide warm, safe, and welcoming accommodation in a lovingly maintained home
 <div class="review-flex">
   <div class="review-box">
     <img src="/sapumal-lodge/images/booking_logo.png" alt="Booking.com Reviews" class="review-logo"><br>
-    <strong>9.3</strong> average rating on Booking.com Based on over <strong>430</strong> reviews
+    <strong>9.3</strong> average rating on Booking.com Based on over <strong>446</strong> reviews
   </div>
 
   <div class="review-box">

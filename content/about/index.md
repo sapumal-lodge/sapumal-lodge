@@ -24,6 +24,8 @@ We are passionate about providing a **friendly, family-oriented service**. Wheth
 
 👤 **Malinda** – Always ready to help on the ground with a smile, he is also known for his warmth and welcoming nature. Responsible for making sure the needs of our guests are met.
 
+👤 **Asiri** – Oversees the business, ensures the wellbeing of our staff, and makes sure we meet all the legal requirements needed to run smoothly.
+
 We care deeply about our guests and treat everyone equally, with kindness and respect. Whether you're a solo traveller, family, or pilgrim, we are here to make your stay comfortable and memorable.
 
 ---
