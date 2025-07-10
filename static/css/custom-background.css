@@ -231,3 +231,21 @@ aside.instapaper_ignoref {
   display: block;
 }
 
+.about-gallery {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5rem;
+  margin: 2rem 0;
+}
+
+.about-gallery img {
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  object-fit: cover;
+}
+
+
+.about-gallery img:hover {
+  transform: scale(1.5);
+}
