@@ -28,12 +28,17 @@ We provide warm, safe, and welcoming accommodation in a lovingly maintained home
   </div>
 
   <div class="room-gallery">
-    <img src="/sapumal-lodge/images/rooms/double_room.jpg" alt="Double Room" class="room-photo">
-    <img src="/sapumal-lodge/images/rooms/triple_room.jpg" alt="Triple Room" class="room-photo">
-    <img src="/sapumal-lodge/images/rooms/quad_room.jpg" alt="Family Room" class="room-photo">
+    <a href="/sapumal-lodge/images/rooms/double_room.jpg" class="lightbox">
+      <img src="/sapumal-lodge/images/rooms/double_room.jpg" alt="Double Room" class="room-photo gallery-photo">
+    </a>
+    <a href="/sapumal-lodge/images/rooms/triple_room.jpg" class="lightbox">
+      <img src="/sapumal-lodge/images/rooms/triple_room.jpg" alt="Triple Room" class="room-photo gallery-photo">
+    </a>
+    <a href="/sapumal-lodge/images/rooms/quad_room.jpg" class="lightbox">
+      <img src="/sapumal-lodge/images/rooms/quad_room.jpg" alt="Family Room" class="room-photo gallery-photo">
+    </a>
   </div>
 </div>
-
 
 ---
 
@@ -55,12 +60,17 @@ We provide warm, safe, and welcoming accommodation in a lovingly maintained home
   </div>
 
   <div class="facility-gallery">
-    <img src="/sapumal-lodge/images/facilities/glass_bottles.jpg" alt="Glass Water Bottles" class="facility-photo">
-    <img src="/sapumal-lodge/images/facilities/hair_dryer.jpg" alt="Hair Dryer" class="facility-photo">
-    <img src="/sapumal-lodge/images/facilities/lounge.jpg" alt="Lounge Area" class="facility-photo">
+    <a href="/sapumal-lodge/images/facilities/glass_bottles.jpg" class="lightbox">
+      <img src="/sapumal-lodge/images/facilities/glass_bottles.jpg" alt="Glass Water Bottles" class="facility-photo gallery-photo">
+    </a>
+    <a href="/sapumal-lodge/images/facilities/hair_dryer.jpg" class="lightbox">
+      <img src="/sapumal-lodge/images/facilities/hair_dryer.jpg" alt="Hair Dryer" class="facility-photo gallery-photo">
+    </a>
+    <a href="/sapumal-lodge/images/facilities/lounge.jpg" class="lightbox">
+      <img src="/sapumal-lodge/images/facilities/lounge.jpg" alt="Lounge Area" class="facility-photo gallery-photo">
+    </a>
   </div>
 </div>
-
 
 ---
 
@@ -68,12 +78,12 @@ We provide warm, safe, and welcoming accommodation in a lovingly maintained home
 
 <div class="review-flex">
   <div class="review-box">
-    <img src="/sapumal-lodge/images/booking_logo.png" alt="Booking.com Reviews" class="review-logo"><br>
+      <img src="/sapumal-lodge/images/booking_logo.png" alt="Booking.com Reviews" class="review-logo">
     <strong>9.3</strong> average rating based on over <strong>446</strong> reviews.
   </div>
 
   <div class="review-box">
-    <img src="/sapumal-lodge/images/google_reviews_logo.png" alt="Google Reviews" class="review-logo"><br>
+      <img src="/sapumal-lodge/images/google_reviews_logo.png" alt="Google Reviews" class="review-logo">
     <strong>4.7</strong> average rating based on over <strong>215</strong> reviews.
   </div>
 </div>
@@ -96,7 +106,9 @@ We provide warm, safe, and welcoming accommodation in a lovingly maintained home
   </div>
 
   <div class="eco-image">
-    <img src="/sapumal-lodge/images/eco/e_bikes.jpg" alt="Our eco-friendly efforts" class="eco-photo">
+    <a href="/sapumal-lodge/images/eco/e_bikes.jpg" class="lightbox">
+      <img src="/sapumal-lodge/images/eco/e_bikes.jpg" alt="Our eco-friendly efforts" class="eco-photo gallery-photo">
+    </a>
   </div>
 </div>
 
@@ -126,5 +138,5 @@ We provide warm, safe, and welcoming accommodation in a lovingly maintained home
 ### 📍 Find Us on Google Maps
 
 <div class="map-container">
-  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3947.767052965626!2d80.39540807557967!3d8.325930791709972!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3afcf587e324e567%3A0xf329eabf0e968352!2sSapumal%20Lodge!5e0!3m2!1sen!2suk!4v1752099043113!5m2!1sen!2suk" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3947.767052965626!2d80.39540807557967!3d8.325930791709972!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3afcf587e324e567%3A0xf329eabf0e968352!2sSapumal%20Lodge!5e0!3m2!1sen!2suk!4v1752099043113!5m2!1sen!2suk" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 </div>
