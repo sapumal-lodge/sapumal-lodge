@@ -1,16 +1,18 @@
 /* Set up the overall text size and base typography */
-html, body {
+html {
   font-size: 16px;
   font-family: 'Segoe UI', 'Helvetica Neue', sans-serif;
   line-height: 1.75;
   color: #2a2a2a;
-  background: url('/sapumal-lodge/images/front_view_day.jpeg') no-repeat center center fixed;
-  background-size: cover;
+  scroll-behavior: smooth;
 }
 
 body {
   margin: 0;
   padding: 0;
+  height: 100%;
+  background: url('/sapumal-lodge/images/front_view_day.jpeg') no-repeat center center fixed;
+  background-size: cover;
 }
 
 h2, h3 {
@@ -31,7 +33,6 @@ ul {
 ul li {
   padding-left: 0.5rem;
   margin-bottom: 0.5rem;
-  position: relative;
   font-size: 1rem;
 }
 
@@ -80,6 +81,7 @@ header .tc-l.pv3.ph3.ph4-ns {
   cursor: pointer;
   margin-left: auto;
   padding: 0.5rem;
+  transition: transform 0.3s ease;
 }
 
 @media (max-width: 768px) {
@@ -95,6 +97,7 @@ header .tc-l.pv3.ph3.ph4-ns {
     right: 0;
     left: 0;
     z-index: 999;
+    animation: fadeIn 0.25s ease-in-out;
   }
 
   .main-menu.open {
@@ -114,11 +117,16 @@ header .tc-l.pv3.ph3.ph4-ns {
   }
 }
 
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(-10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
 /* Content container */
 main > article,
 main > div {
   text-align: left !important;
-  max-width: 80vw !important;
+  max-width: 90vw !important;
   margin: 1.5rem auto;
   padding: 2.5rem;
   background-color: rgba(255, 255, 255, 0.96);
@@ -128,8 +136,8 @@ main > div {
 
 @media screen and (min-width: 30em) {
   div.pa3.pa4-ns.w-100.w-70-ns.center {
-    width: 80% !important;
-    max-width: 80% !important;
+    width: 90% !important;
+    max-width: 90% !important;
   }
 }
 
@@ -137,20 +145,23 @@ aside.instapaper_ignoref {
   display: none;
 }
 
-/* Shared image styles */
+/* Shared image styles with lightbox */
 .room-photo,
 .facility-photo,
-.eco-photo {
+.eco-photo,
+.gallery-photo {
   width: 100%;
   max-width: 220px;
   border-radius: 10px;
   box-shadow: 0 6px 14px rgba(0, 0, 0, 0.1);
   transition: transform 0.2s ease-in-out;
+  cursor: pointer;
 }
 
 .room-photo:hover,
 .facility-photo:hover,
-.eco-photo:hover {
+.eco-photo:hover,
+.gallery-photo:hover {
   transform: scale(1.03);
 }
 
@@ -201,14 +212,21 @@ aside.instapaper_ignoref {
 
 .review-box {
   max-width: 320px;
-  background-color: #fafafa;
-  border-radius: 10px;
-  padding: 1.5rem;
-  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.08);
+  background-color: #ffffff;
+  border-radius: 12px;
+  padding: 2rem;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.08);
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-between;
   height: 100%;
+  min-height: 280px;
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.review-box:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.1);
 }
 
 .review-logo {
@@ -216,59 +234,42 @@ aside.instapaper_ignoref {
   margin-bottom: 1rem;
 }
 
-
-.map-container {
-  margin-top: 2rem;
-  border-radius: 12px;
-  overflow: hidden;
-  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
-}
-
+/* Google Maps container */
 .map-container iframe {
-  width: 100%;
-  height: 350px;
+  width: 100% !important;
+  height: auto;
   border: none;
-  display: block;
+  border-radius: 12px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+  margin-top: 1.5rem;
+  aspect-ratio: 4 / 3;
 }
 
-.about-gallery {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 1.5rem;
-  margin: 2rem 0;
-}
-
-.about-gallery img {
-  width: 100%;
-  border-radius: 10px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-  object-fit: cover;
-}
-
-
-.about-gallery img:hover {
-  transform: scale(1.5);
-}
-
-
-.safari-prices-flex {
+/* Lightbox styles */
+.lightbox-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.8);
   display: flex;
-  flex-direction: column;
-  gap: 2rem;
-  margin: 1rem 0;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 0.3s ease, visibility 0.3s ease;
 }
 
-.safari-prices-box {
-  flex: 1;
-  background: #fefefe;
-  padding: 1.5rem;
-  border-radius: 10px;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.06);
+.lightbox-overlay.active {
+  visibility: visible;
+  opacity: 1;
 }
 
-@media (min-width: 768px) {
-  .safari-prices-flex {
-    flex-direction: row;
-  }
+.lightbox-overlay img {
+  max-width: 90vw;
+  max-height: 90vh;
+  border-radius: 12px;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
 }
-
