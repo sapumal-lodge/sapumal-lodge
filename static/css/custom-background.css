@@ -1,5 +1,5 @@
 /* Set up the overall text size and base typography */
-html {
+html, body {
   font-size: 16px;
   font-family: 'Segoe UI', 'Helvetica Neue', sans-serif;
   line-height: 1.75;
@@ -68,6 +68,50 @@ header .tc-l.pv3.ph3.ph4-ns {
   overflow: hidden;
   white-space: nowrap;
   font-size: 0;
+}
+
+/* Burger menu styles */
+.nav-toggle {
+  display: none;
+  background: none;
+  border: none;
+  font-size: 2rem;
+  color: white;
+  cursor: pointer;
+  margin-left: auto;
+  padding: 0.5rem;
+}
+
+@media (max-width: 768px) {
+  .nav-toggle {
+    display: block;
+  }
+
+  .main-menu {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 60px;
+    right: 0;
+    left: 0;
+    z-index: 999;
+  }
+
+  .main-menu.open {
+    display: flex;
+  }
+
+  .main-menu ul {
+    background-color: rgba(0, 0, 0, 0.95);
+    padding: 1.5rem;
+    margin: 0;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .main-menu li {
+    margin-bottom: 1rem;
+  }
 }
 
 /* Content container */
