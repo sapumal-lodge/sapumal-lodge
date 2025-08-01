@@ -273,35 +273,6 @@ aside.instapaper_ignoref {
   color: #1c1c1c;
 }
 
-/* Lightbox styles */
-.lightbox-overlay {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100vw;
-  height: 100vh;
-  background: rgba(0, 0, 0, 0.8);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  z-index: 1000;
-  visibility: hidden;
-  opacity: 0;
-  transition: opacity 0.3s ease, visibility 0.3s ease;
-}
-
-.lightbox-overlay.active {
-  visibility: visible;
-  opacity: 1;
-}
-
-.lightbox-overlay img {
-  max-width: 90vw;
-  max-height: 90vh;
-  border-radius: 12px;
-  box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
-}
-
 
 .breakfast-layout {
   display: flex;
@@ -333,4 +304,19 @@ aside.instapaper_ignoref {
   max-width: 260px; /* was 360px */
   border-radius: 16px;
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+}
+
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 1rem;
+  justify-items: center;
+  align-items: center;
+  margin-top: 1.5rem;
+}
+
+@media (min-width: 600px) {
+  .gallery-grid {
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  }
 }
