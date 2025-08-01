@@ -70,6 +70,8 @@ We provide warm, safe, and welcoming accommodation in a lovingly maintained home
       
     
 	
+    
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.4/css/lightbox.min.css" rel="stylesheet">
   </head><body class="ma0 avenir bg-near-white production">
 
     
@@ -324,7 +326,21 @@ We provide warm, safe, and welcoming accommodation in a lovingly maintained home
             </a>
         </h1>
         <div class="f6 f5-l lh-copy nested-copy-line-height nested-links">
-          <p>Breakfast content&hellip;</p>
+          <h2 id="-breakfast-at-sapumal-lodge">🥣 Breakfast at Sapumal Lodge</h2>
+<p>Start your day with a wholesome, homemade breakfast lovingly prepared using fresh, local ingredients. Whether you’re heading out for a day of exploring ancient Anuradhapura or just relaxing at the lodge, our breakfast is sure to energize you.</p>
+<hr>
+<h3 id="-what-we-offer">🍽️ What We Offer</h3>
+<ul>
+<li>🥪 Freshly toasted bread and spreads</li>
+<li>🍳 Boiled eggs and omelettes</li>
+<li>🥞 Pancakes and Sri Lankan-style roti</li>
+<li>🧀 Butter, jam, and kiri pani (curd and treacle)</li>
+<li>🫕 Dhal curry, coconut sambol, and local condiments</li>
+<li>🍉 A colourful platter of seasonal tropical fruits</li>
+<li>🧃 Freshly made fruit juice (watermelon, papaya, or orange)</li>
+<li>☕ Ceylon tea or Nescafé</li>
+</ul>
+<p>Vegetarian and child-friendly options are always available.</p>
         </div>
         
           <p class="f6 lh-copy mv0">By Sapumal Lodge</p><a href="/sapumal-lodge/breakfast/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
@@ -348,7 +364,22 @@ We provide warm, safe, and welcoming accommodation in a lovingly maintained home
             </a>
         </h1>
         <div class="f6 f5-l lh-copy nested-copy-line-height nested-links">
-          <p>E-bike content&hellip;</p>
+          <h2 id="-discover-anuradhapura-the-easy-way--by-e-bike">⚡ Discover Anuradhapura the Easy Way — by E-Bike!</h2>
+<p>Explore the sacred city of Anuradhapura with comfort, freedom, and <strong>zero emissions</strong>.<br>
+With our smooth, quiet <strong>electric bikes</strong>, you can effortlessly reach ancient ruins, lakes, temples, and hidden gems.  All at your own pace!</p>
+<hr>
+<h3 id="-why-choose-our-e-bikes">🚲 Why Choose Our E-Bikes?</h3>
+<ul>
+<li>🔋 <strong>Effortless Travel</strong> – Go farther with less effort using pedal-assist electric motors</li>
+<li>🌱 <strong>Eco-Friendly</strong> – No fuel. No fumes. Just you and nature</li>
+<li>🛣️ <strong>Freedom to Explore</strong> – Stop, detour, and wander.  No traffic or timetables</li>
+<li>💸 <strong>Cost Effective</strong> – Budget-friendly and fuel-free</li>
+<li>🛡️ <strong>Safe &amp; Reliable</strong> – Well-maintained e-bikes with lock, lights, and backup support</li>
+</ul>
+<hr>
+<h3 id="-special-price-for-our-guests">💰 Special Price for Our Guests</h3>
+<p>If you&rsquo;re staying at <strong>Sapumal Lodge</strong>, you can rent an e-bike for just<br>
+<strong>🪙 USD $5 per day!</strong></p>
         </div>
         
           <p class="f6 lh-copy mv0">By Sapumal Lodge</p><a href="/sapumal-lodge/ebike/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
@@ -399,29 +430,9 @@ We provide warm, safe, and welcoming accommodation in a lovingly maintained home
     <div><div class="ananke-socials"></div>
 </div>
   </div>
-  <script>
-  document.addEventListener("DOMContentLoaded", function () {
-    const links = document.querySelectorAll('.lightbox');
-    const overlay = document.createElement('div');
-    overlay.className = 'lightbox-overlay';
-    overlay.innerHTML = '<img><span style="position:absolute;top:20px;right:30px;color:white;font-size:2rem;cursor:pointer;">&times;</span>';
-    document.body.appendChild(overlay);
-
-    const img = overlay.querySelector('img');
-    const close = overlay.querySelector('span');
-
-    links.forEach(link => {
-      link.addEventListener('click', function (e) {
-        e.preventDefault();
-        img.src = this.href;
-        overlay.classList.add('active');
-      });
-    });
-
-    overlay.addEventListener('click', () => overlay.classList.remove('active'));
-    close.addEventListener('click', () => overlay.classList.remove('active'));
-  });
-</script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.4/js/lightbox.min.js"></script>
 </footer>
 
   </body>

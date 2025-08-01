@@ -301,3 +301,36 @@ aside.instapaper_ignoref {
   border-radius: 12px;
   box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
 }
+
+
+.breakfast-layout {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  margin: 2rem 0;
+}
+
+
+
+.breakfast-layout .bottom-row {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+}
+
+
+.breakfast-layout .top-image img {
+  width: 100%;
+  max-width: 540px; /* was 720px */
+  border-radius: 16px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+}
+
+.breakfast-layout .bottom-row img {
+  width: 100%;
+  max-width: 260px; /* was 360px */
+  border-radius: 16px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+}

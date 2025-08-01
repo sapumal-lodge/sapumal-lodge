@@ -70,6 +70,8 @@ We are passionate about providing a friendly, family-oriented service. Whether y
       
     
 	
+    
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.4/css/lightbox.min.css" rel="stylesheet">
   </head><body class="ma0 avenir bg-near-white production">
 
     
@@ -227,29 +229,9 @@ We are passionate about providing a friendly, family-oriented service. Whether y
     <div><div class="ananke-socials"></div>
 </div>
   </div>
-  <script>
-  document.addEventListener("DOMContentLoaded", function () {
-    const links = document.querySelectorAll('.lightbox');
-    const overlay = document.createElement('div');
-    overlay.className = 'lightbox-overlay';
-    overlay.innerHTML = '<img><span style="position:absolute;top:20px;right:30px;color:white;font-size:2rem;cursor:pointer;">&times;</span>';
-    document.body.appendChild(overlay);
-
-    const img = overlay.querySelector('img');
-    const close = overlay.querySelector('span');
-
-    links.forEach(link => {
-      link.addEventListener('click', function (e) {
-        e.preventDefault();
-        img.src = this.href;
-        overlay.classList.add('active');
-      });
-    });
-
-    overlay.addEventListener('click', () => overlay.classList.remove('active'));
-    close.addEventListener('click', () => overlay.classList.remove('active'));
-  });
-</script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.4/js/lightbox.min.js"></script>
 </footer>
 
   </body>
