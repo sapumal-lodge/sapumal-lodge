@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Sapumal Lodge</title>
-    <link>https://sapumal-lodge.github.io/sapumal-lodge/categories/</link>
+    <link>http://sapumal-lodge.com/categories/</link>
     <description>Recent content in Categories on Sapumal Lodge</description>
     <generator>Hugo</generator>
     <language>en-gb</language>
-    <atom:link href="https://sapumal-lodge.github.io/sapumal-lodge/categories/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://sapumal-lodge.com/categories/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
