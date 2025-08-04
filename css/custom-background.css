@@ -359,6 +359,8 @@ form button:hover {
 
 .contact-container {
   display: flex;
+  max-width: 100%;
+  overflow: hidden;
   flex-wrap: wrap;
   gap: 2rem;
   margin-top: 2rem;
@@ -393,6 +395,7 @@ form button:hover {
 .contact-form form {
   display: flex;
   flex-direction: column;
+  min-width: 0;  /* allow it to shrink on narrow screens */
 }
 
 .form-row {
